@@ -5,7 +5,7 @@ import { arbitrum, base, mainnet, optimism, anvil, zksync, sepolia } from "wagmi
 
 export default getDefaultConfig({
     appName: "Airdrop",
-    projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID!,
+    projectId: "e2e4f7496b96a4be50f2b4b4694861c9",
     chains: [mainnet, optimism, arbitrum, base, zksync, sepolia, anvil],
     ssr: false,
 })
