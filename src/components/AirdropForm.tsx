@@ -187,7 +187,7 @@ export default function AirdropForm({ isUnsafeMode, onModeChange }: AirdropFormP
             className={`max-w-2xl min-w-full xl:min-w-lg w-full lg:mx-auto p-6 flex flex-col gap-6 bg-white rounded-xl ring-[4px] border-2 ${isUnsafeMode ? " border-red-500 ring-red-500/25" : " border-blue-500 ring-blue-500/25"}`}
         >
             <div className="flex items-center justify-between">
-                <h2 className="text-xl font-semibold text-zinc-900">T-Sender</h2>
+                <h2 className="text-xl font-semibold text-zinc-900">AirDrop</h2>
                 <Tabs defaultValue={"false"}>
                     <TabsList>
                         <TabsTrigger value={"false"} onClick={() => onModeChange(false)}>
